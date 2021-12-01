@@ -12,5 +12,7 @@ public abstract class Puzzle {
         this.input = Helpers.loadFile("puzzle" + this.puzzleId + "/input.csv");
     }
 
-    public abstract Object computeAnswer();
+    public abstract Object computeFirstHalfAnswer();
+
+    public abstract Object computeSecondHalfAnswer();
 }
