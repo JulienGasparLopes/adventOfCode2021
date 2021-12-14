@@ -1,6 +1,6 @@
 package com.pinzen;
 
-import com.pinzen.puzzle6.Puzzle6;
+import com.pinzen.puzzle7.Puzzle7;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,8 +24,12 @@ public class Main {
         // System.out.println(puzzle5.computeFirstHalfAnswer());
         // System.out.println(puzzle5.computeSecondHalfAnswer());
 
-        Puzzle puzzle6 = new Puzzle6();
-        System.out.println(puzzle6.computeFirstHalfAnswer());
-        System.out.println(puzzle6.computeSecondHalfAnswer());
+        // Puzzle puzzle6 = new Puzzle6();
+        // System.out.println(puzzle6.computeFirstHalfAnswer());
+        // System.out.println(puzzle6.computeSecondHalfAnswer());
+
+        Puzzle puzzle7 = new Puzzle7();
+        System.out.println(puzzle7.computeFirstHalfAnswer());
+        System.out.println(puzzle7.computeSecondHalfAnswer());
     }
 }
